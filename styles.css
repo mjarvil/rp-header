@@ -17,15 +17,31 @@ html {
 .title {
   font-family: 'Lora', serif;
   color: #143774;
-  font-size: 3.375em;
+  font-size: 2em;
 }
 
 .subtitle {
   font-size: 1rem;
   color: #1792d2;
-  letter-spacing: 0.39em;
+  /* letter-spacing: 0.39em; */
 }
 
 nav ul {
   list-style: none;
+  display: flex;
+  border: 1px dotted magenta;
+  width: 450px;
+  padding: 0;
+}
+
+nav li {
+  border: 1px dotted green;
+  margin: 0 1em;
+  padding: 0 1em;
+}
+
+nav a {
+}
+
+nav a:hover {
 }
