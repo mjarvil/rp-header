@@ -8,10 +8,8 @@ html {
 }
 
 .container {
+  text-align: center;
   background-color: #f8f8f8;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .title {
@@ -26,16 +24,22 @@ html {
   /* letter-spacing: 0.39em; */
 }
 
+nav {
+  /* border: 1px solid orange; */
+  display: flex;
+  justify-content: center;
+}
+
 nav ul {
   list-style: none;
   display: flex;
-  border: 1px dotted magenta;
+  /* border: 1px dotted magenta; */
   width: 450px;
   padding: 0;
 }
 
 nav li {
-  border: 1px dotted green;
+  /* border: 1px dotted green; */
   margin: 0 1em;
   padding: 0 1em;
 }
