@@ -10,18 +10,21 @@ html {
 header {
   text-align: center;
   background-color: #f8f8f8;
+  padding: 2em;
 }
 
 .title {
   font-family: 'Lora', serif;
   color: #143774;
   font-size: 2em;
+  font-weight: 400;
 }
 
 .subtitle {
-  font-size: 1rem;
+  font-size: 0.75rem;
   color: #1792d2;
-  /* letter-spacing: 0.39em; */
+  letter-spacing: 0.2em;
+  font-weight: bold;
 }
 
 nav {
@@ -35,7 +38,7 @@ nav ul {
   display: flex;
   /* border: 1px dotted magenta; */
   width: 450px;
-  padding: 0;
+  padding: 2em 0;
 }
 
 nav li {
