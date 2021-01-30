@@ -16,11 +16,15 @@ html {
 .title {
   font-family: 'Lora', serif;
   color: #143774;
-  font-size: 3.375rem;
+  font-size: 3.375em;
 }
 
 .subtitle {
   font-size: 1rem;
   color: #1792d2;
   letter-spacing: 0.39em;
+}
+
+ul {
+  list-style: none;
 }
