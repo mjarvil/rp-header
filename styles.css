@@ -12,6 +12,9 @@ html {
   max-width: 900px;
   /* border: 1px solid magenta; */
   margin: 0 auto;
+}
+
+.container-nav {
   display: flex;
 }
 
