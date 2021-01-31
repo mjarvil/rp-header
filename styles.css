@@ -16,6 +16,7 @@ html {
 
 .container-nav {
   display: flex;
+  justify-content: space-between;
 }
 
 header {
@@ -25,7 +26,6 @@ header {
 }
 
 div.logo {
-  flex-grow: 1;
 }
 
 .title {
@@ -42,24 +42,18 @@ div.logo {
   font-weight: bold;
 }
 
-nav {
-  /* border: 1px solid orange; */
-  display: flex;
-  justify-content: center;
-}
-
 nav ul {
   list-style: none;
   display: flex;
   /* border: 1px dotted magenta; */
   width: 450px;
+  justify-content: flex-end;
   padding: 1em 0;
 }
 
 nav li {
   /* border: 1px dotted green; */
-  margin: 0 0.5em;
-  padding: 0 1em;
+  margin-left: 1em;
 }
 
 nav a {
